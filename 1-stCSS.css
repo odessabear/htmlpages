@@ -57,7 +57,7 @@ ul{
 .discipline li{
 	padding:15px 0;
 	border-bottom:1px solid black;
-	
+	padding-left:10px;
 	
 }
 
@@ -86,18 +86,31 @@ ul{
 	color:black;
 	text-decoration:none;
 }
-.table1{
-	width:49%;
-	border:1px double black;
-	border-spacing:0;
+
+.table-wrapper {
+	display: inline-block;
+	width: 50%;
 }
-.table1 th {
-	 text-align: left; /* Выравнивание по левому краю */
-    background: #ccc; /* Цвет фона ячеек */
-    padding: 5px; /* Поля вокруг содержимого ячеек */
-    border: 1px solid black;
-	
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
- .table1 td { 
-    padding: 5px; /* Поля вокруг содержимого ячеек */
-    border: 1px solid black; /* Граница вокруг ячеек */
+
+td, th {
+  border: 1px solid black;
+  margin: 0;
+  padding: 10px;
+}
+
+td:first-of-type,
+th:first-of-type {
+  width: 10px;
+  background-color:lightgrey;
+} 
+th{
+	background-color:lightgrey;
+}
