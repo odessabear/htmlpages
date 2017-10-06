@@ -13,7 +13,9 @@
 }
 
 .sub-header-wrapper {
-  text-align: center;
+  width:900px;
+  margin:0 auto;
+  padding-left:70px;
 }
 
 .sub-header {
@@ -23,6 +25,8 @@
   margin: 0;
   margin-right: 10px;
   padding: 10px;
+  width:760px;
+  text-align:center;
 }
 
 .logout-link {
@@ -87,12 +91,12 @@ ul{
 	text-decoration:none;
 }
 
-.table-wrapper {
+.disciplie-table-wrapper {
 	display: inline-block;
 	width: 50%;
 }
 
-table {
+.disciplie-table-wrapper table {
   border: 1px solid black;
   border-collapse: collapse;
   margin: 0;
@@ -100,17 +104,122 @@ table {
   width: 100%;
 }
 
-td, th {
+table th, table td {
   border: 1px solid black;
   margin: 0;
   padding: 10px;
 }
+ 
 
-td:first-of-type,
-th:first-of-type {
-  width: 10px;
+ .disciplie-table-wrapper table th:first-of-type{
+  width:41px;
   background-color:lightgrey;
 } 
-th{
+.marks-table-wrapper table th:last-of-type{
+	width:20%;
+}
+.marks-table-wrapper table td:last-of-type{
+	text-align:center;
+}
+.disciplie-table-wrapper th{
 	background-color:lightgrey;
+}
+.studinfo-table-wrapper{
+	display: inline-block;
+	width:100%;
+}
+.studinfo-table-wrapper table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.studinfo-table-wrapper th{
+	background-color:lightgrey;
+}
+.studinfo-table-wrapper th{
+	  border: 1px solid black;
+  margin: 0;
+  padding: 10px;
+  width:25%;
+	
+}
+.marks-table-wrapper{
+	display: inline-block;
+	width: 50%;
+}
+.marks-table-wrapper table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.marks-table-wrapper th{
+	background-color:lightgrey;
+}
+.marks-table-wrapper  th {
+  border: 1px solid black;
+  margin: 0;
+  padding: 15px;
+}
+.select-panel{
+	display:inline-block;
+	vertical-align: top;
+	padding-left:70px;
+}
+.admin-panel2 {
+	display:inline-block;
+	vertical-align: top;
+	
+	width:600px;
+	
+}
+.admin-panel2 .button {
+	background-color: lightgrey;
+	border: 1px solid black;
+	border-radius: 4px;
+	display:inline-block;
+	margin-bottom: 20px;
+	width:44%;
+	padding:7px 18px;
+	color:black;
+	text-decoration:none;
+	height:50px;
+	vertical-align: top;
+	margin-right:20px;
+	text-align:center;
+}
+.students-table-wrapper{
+	display: inline-block;
+	width:100%;
+}
+.students-table-wrapper table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.students-table-wrapper th{
+	background-color:lightgrey;
+	border: 1px solid black;
+	margin: 0;
+	padding: 10px;
+}
+.control{
+	width:5%;
+}
+.surname{
+	width:35%;
+}
+.name{
+	width:30%;
+}
+.group{
+	width:15%;
+}
+.date{
+	width:15%;
 }
